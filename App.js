@@ -13,6 +13,6 @@ export default function App() {
         <Stack.Screen name="Home" component={ZipCodeScreen}/>
         <Stack.Screen name="Weather" component={WeatherScreen}/>
       </Stack.Navigator>
-    </NavigationContainer> 
+    </NavigationContainer>
   );
 }
