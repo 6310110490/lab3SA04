@@ -45,14 +45,16 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        paddingVertical: 20
+        paddingVertical: 20,
+        backgroundColor: '#696969',
     },
     zipPlace: {
         flex: 2,
         paddingLeft: 30,
-        fontFamily: 'notoserif'
+        fontSize: 18
     },
     zipCode: {
         flex: 1,
+        fontSize: 18
     }
 }) 
