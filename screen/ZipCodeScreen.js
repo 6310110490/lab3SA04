@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
     zipPlace: {
         flex: 2,
         paddingLeft: 30,
+        fontFamily: 'notoserif'
     },
     zipCode: {
         flex: 1,

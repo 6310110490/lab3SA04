@@ -53,9 +53,5 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%'
     },
-    text: {
-        fontSize: 24,
-        margin: 15 
-    }
 });
    

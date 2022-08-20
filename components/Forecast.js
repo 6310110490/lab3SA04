@@ -22,9 +22,12 @@ const styles = StyleSheet.create({
     text1: {
         fontSize: 35,
         margin: 15,
+        fontStyle: 'italic',
+        color: '#8b008b'
     },
     text2: {
         fontSize: 20,
         margin: 15,
+        color: '#dc143c'
     }
 });
