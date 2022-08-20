@@ -18,6 +18,7 @@ export default function Weather(props) {
             .then((json) => {
                 setForecastInfo({
                     city: json.name,
+                    humidity: json.main.humidity,
                     main: json.weather[0].main,
                     description: json.weather[0].description,
                     temp: json.main.temp
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 24,
-        margin: 15   
+        margin: 15 
     }
 });
    

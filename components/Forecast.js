@@ -10,20 +10,21 @@ export default function Forecast(props) {
             <View>
                 <Text style={styles.text1}>{props.temp}°C</Text>
             </View>
+            <Text style={styles.text2}>humidity: {props.humidity}%</Text>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        alignItems: 'center'
+        alignItems: 'center',
     },
     text1: {
         fontSize: 35,
-        margin: 15
+        margin: 15,
     },
     text2: {
         fontSize: 20,
-        margin: 15
+        margin: 15,
     }
 });
