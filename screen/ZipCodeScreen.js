@@ -4,10 +4,15 @@ import { useNavigation } from '@react-navigation/native'
 
 const availableZipItems = [
     { place: 'Hatyai', code: '90110' },
- { place: 'Trang', code: '92000' },
- { place: 'Chiangmai', code: '50000' },
- { place: 'Khonkaen', code: '40000' },
- { place: 'Chonburi', code: '20000' }, 
+    { place: 'Trang', code: '92000' },
+    { place: 'Chiangmai', code: '50000' },
+    { place: 'Khonkaen', code: '40000' },
+    { place: 'Chonburi', code: '20000' },
+    { place: 'Sa Dao', code: '90120' },
+    { place: 'Thepha', code: '90150' },
+    { place: 'Khlong HoyKhong', code: '90230' },
+    { place: 'Rattapum', code: '90180' },
+    { place: 'Singha Nakorn', code: '90330' },
 ]
 
 const ZipItem = ({place, code, navigation}) => (
