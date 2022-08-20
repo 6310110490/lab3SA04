@@ -4,6 +4,7 @@ import { View, Text, StyleSheet } from 'react-native'
 export default function Forecast(props) {
     return (
         <View style={styles.container}>
+            <Text style={styles.text1}>{props.city}</Text>
             <Text style={styles.text1}>{props.main}</Text>
             <Text style={styles.text2}>{props.description}</Text>
             <View>

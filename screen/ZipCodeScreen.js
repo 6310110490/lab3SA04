@@ -3,22 +3,11 @@ import { FlatList, View ,StatusBar, Text, StyleSheet, TouchableHighlight } from 
 import { useNavigation } from '@react-navigation/native'
 
 const availableZipItems = [
-    { place: 'Muang Songkhla', code: '90000' },
-    { place: 'Hat yai', code: '90110' },
-    { place: 'Sa Dao', code: '90120' },
-    { place: 'Chana', code: '90130' },
-    { place: 'Ranot', code: '90140' },
-    { place: 'Thepha', code: '90150' },
-    { place: 'Na Thawi', code: '90160' },
-    { place: 'Rattapum', code: '90180' },
-    { place: 'Sating Phra', code: '90190' },
-    { place: 'Sabayoi', code: '90210' },
-    { place: 'Kuan Niang', code: '90220' },
-    { place: 'Khlong Hoykhong', code: '90230' },
-    { place: 'Krasae Sin', code: '90270' },
-    { place: 'Na Mom', code: '90310' },
-    { place: 'Singha Nakorn', code: '90330' },
-    
+    { place: 'Hatyai', code: '90110' },
+ { place: 'Trang', code: '92000' },
+ { place: 'Chiangmai', code: '50000' },
+ { place: 'Khonkaen', code: '40000' },
+ { place: 'Chonburi', code: '20000' }, 
 ]
 
 const ZipItem = ({place, code, navigation}) => (
